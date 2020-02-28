@@ -21,13 +21,11 @@
     "url": "http://www.example.com"
   },
   "links": {
-    "self": "https://github.com/nutharsh/dagger/atlassian-connect.json"
+    "self": "https://github.com/nutharsh/dagger/blob/master/atlassian-connect.json"
   },
   "lifecycle": {
-    "installed": "/installed",
-    "uninstalled": "/uninstalled"
   },
-  "baseUrl": "http://www.example.com/connect/jira",
+  "baseUrl": "https://github.com/nutharsh/dagger/blob/master/",
   "authentication": {
     "type": "jwt"
   },
