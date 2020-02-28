@@ -24,10 +24,10 @@
     "self": "https://github.com/nutharsh/dagger/blob/master/atlassian-connect.json"
   },
   "lifecycle": {
-    "installed": "/installed",
-    "uninstalled": "/uninstalled"
+    "installed": "/dagger",
+    "uninstalled": "/dagger"
   },
-  "baseUrl": "https://github.com/nutharsh/dagger/blob/master/",
+  "baseUrl": "https://github.com/nutharsh",
   "authentication": {
     "type": "jwt"
   },
