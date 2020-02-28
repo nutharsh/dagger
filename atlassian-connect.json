@@ -1,31 +1,39 @@
 {
-	"key": "com.adarsh.apps.dagger",
-	"name": "dagger",
-	"description": "a character used in printing to indicate a cross-reference or footnote",
-	"vendor": {
-		"name": "My Company",
-		"url": "http://www.example.com"
-	},
-	"links": {
-		"self": "https://github.com/nutharsh/dagger/blob/master/atlassian-connect.json"
-	},
-	"lifecycle": {},
-	"baseUrl": "https://github.com/nutharsh/dagger/blob/master/",
-	"authentication": {
-		"type": "jwt"
-	},
-	"enableLicensing": true,
-	"scopes": ["read", "write"],
-	"modules": {
-		"jiraProjectPermissions": [{
-			"description": {
-				"value": "permission desc"
-			},
-			"category": "projects",
-			"name": {
-				"value": "sample custom vendor permission"
-			},
-			"key": "dagger"
-		}]
-	}
+  "key": "com.adarsh.apps.dagger",
+  "name": "dagger",
+  "description": "a character used in printing to indicate a cross-reference or footnote",
+  "vendor": {
+    "name": "My Company",
+    "url": "http://www.example.com"
+  },
+  "links": {
+    "self": "https://github.com/nutharsh/dagger/blob/master/atlassian-connect.json"
+  },
+  "lifecycle": {
+    "installed": "/",
+    "uninstalled": "/"
+  },
+  "baseUrl": "https://github.com/nutharsh/dagger/blob/master/",
+  "authentication": {
+    "type": "jwt"
+  },
+  "enableLicensing": true,
+  "scopes": [
+    "read",
+    "write"
+  ],
+  "modules": {
+    "jiraProjectPermissions": [
+      {
+        "description": {
+          "value": "permission desc"
+        },
+        "category": "projects",
+        "name": {
+          "value": "sample custom vendor permission"
+        },
+        "key": "dagger"
+      }
+    ]
+  }
 }
