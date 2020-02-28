@@ -1,14 +1,27 @@
-﻿{
-  "modules": {},
-  "key": "my-app-key",
-  "name": "My Connect App",
-  "description": "A connect app that does something",
+{
+  "modules": {
+    "jiraProjectPermissions": [
+      {
+        "description": {
+          "value": "permission desc"
+        },
+        "category": "projects",
+        "name": {
+          "value": "sample custom vendor permission"
+        },
+        "key": "dagger"
+      }
+    ]
+  },
+  "key": "com.adarsh.apps.dagger",
+  "name": "dagger",
+  "description": "a character used in printing to indicate a cross-reference or footnote",
   "vendor": {
     "name": "My Company",
     "url": "http://www.example.com"
   },
   "links": {
-    "self": "http://www.example.com/connect/jira/atlassian-connect.json"
+    "self": "https://github.com/nutharsh/dagger/atlassian-connect.json"
   },
   "lifecycle": {
     "installed": "/installed",
